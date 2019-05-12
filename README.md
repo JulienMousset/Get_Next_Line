@@ -12,4 +12,5 @@ Function that returns a line ending with a newline, read from a file descriptor.
 ## Executing
 
 To use the function, compile with the bash script : `sh gcc.sh`
+
 And execute the program with the file of your choice : `./test_gnl yourfile`
