@@ -13,6 +13,6 @@ Function that returns a line ending with a newline, read from a file descriptor.
 
 To use the function, compile with the bash script : `sh gcc.sh`
 
-And execute the program with the file of your choice : `./gnl yourfile`
+And execute the program with the file of your choice : `./test_gnl yourfile`
 
 If you want to be able to manage multiple file descriptors at the same time, replace `main.c` with `main_multiple_fd.c` in the `Makefile`.
