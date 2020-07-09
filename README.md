@@ -1,6 +1,6 @@
 # Get_Next_Line
 
-Function that returns a line ending with a newline, read from a file descriptor. It is able to manage multiple file descriptors at the same time, without losing the reading thread on each of the descriptors.
+A function that returns a line ending with a newline, read from a file descriptor. It is able to manage multiple file descriptors at the same time, without losing the reading thread on each of the descriptors.
 
 ## How to use
 
