@@ -6,7 +6,7 @@
 #    By: jmousset <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/04/04 16:43:26 by jmousset          #+#    #+#              #
-#    Updated: 2020/07/09 11:19:33 by julien           ###   ########.fr        #
+#    Updated: 2020/07/09 12:09:08 by julien           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -85,7 +85,7 @@ HDR = libft.h
 all: $(NAME)
 
 $(NAME):
-	gcc $(FLAGS) -c $(SRCS) $(HDR)
+	gcc $(FLAGS) -c $(SRCS) -L $(HDR)
 	ar rc $(NAME) $(OBJS)
 	ranlib $(NAME)
 
